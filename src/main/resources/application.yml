@@ -22,7 +22,7 @@ spring:
 
 logging:
   file:
-    name: ${user.dir}/log/server_log.log
+    name: ${LOG_PATH}
   level:
     org.hibernate.SQL: debug
     org.hibernate.type: trace
